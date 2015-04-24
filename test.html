@@ -26,7 +26,7 @@ $(function () {
 
     $('.event-twister').on('foo bar baz', function (e) {
 
-        $(this).append('<span>' + e.type + ' event</span>');
+        $(this).append('<span>' + e.type + '&nbsp;event</span> ');
 
     });
 
@@ -44,7 +44,8 @@ $(function () {
 .event-twister span {
     border-radius: 8px;
     border: solid 1px #999;
-    padding: 3px;
-    margin-left: 5px;
+    padding: 5px;
+    line-height: 2.6;
+    margin: 3px;
 }
 </style>
