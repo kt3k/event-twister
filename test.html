@@ -1,0 +1,50 @@
+
+
+<script src="./bower_components/jquery/dist/jquery.js"></script>
+<script src="./bower_components/custom-class/custom-class.js"></script>
+
+<script src="./event-twister.js"></script>
+
+<h2>Event Twister DEMO</h2>
+
+<p>see the source code!</p>
+
+
+<hr />
+
+
+<div class="event-twister" twist="click: foo; mouseover: bar; mouseout: baz;">
+    Click (twisted to foo) and<br />
+    Mouse over (twisted to bar)  and<br />
+    Mouse out (twisted to baz) here<br />
+</div>
+
+
+
+<script>
+$(function () {
+
+    $('.event-twister').on('foo bar baz', function (e) {
+
+        $(this).append('<span>' + e.type + ' event</span>');
+
+    });
+
+});
+</script>
+
+
+<style>
+.event-twister {
+    border-radius: 8px;
+    border: solid 1px #999;
+    padding: 15px;
+}
+
+.event-twister span {
+    border-radius: 8px;
+    border: solid 1px #999;
+    padding: 3px;
+    margin-left: 5px;
+}
+</style>
