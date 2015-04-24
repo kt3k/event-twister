@@ -2,6 +2,8 @@
 
 > Twist events at a dom
 
+***Note*** This library depends on `jQuery` and [custom-class](https://github.com/kt3k/custom-class)
+
 ## Usage
 
 ```html
