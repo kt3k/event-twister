@@ -4,6 +4,14 @@
 
 ***Note*** This library depends on `jQuery` and [custom-class](https://github.com/kt3k/custom-class)
 
+## Event Twister
+
+An event twister is a dom element which has the functionality to "twist" an event which is triggered on the element into the other type of events.
+
+For example an event twister, `<div class="event-twister" twist="click: foo;"></div>`, twists the `click` events on it into `foo` events.
+
+See the section below for actual usage.
+
 ## Usage
 
 ```html
