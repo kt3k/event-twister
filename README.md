@@ -1,4 +1,4 @@
-# event-twister v1.0.0
+# event-twister v2.0.0
 
 > Twist events at a dom
 
