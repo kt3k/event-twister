@@ -8,7 +8,7 @@
 (function ($) {
     'use strict';
 
-    $.registerCustomClass('event-twister', function (){
+    $.registerClassComponent('event-twister', function (){
 
         var twister = new EventTwister(this);
 
