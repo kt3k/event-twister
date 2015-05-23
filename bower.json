@@ -2,7 +2,7 @@
   "name": "event-twister",
   "description": "Twist events at a dom",
   "main": "event-twister.js",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "authors": [
     "Yoshiya Hinosawa <stibium121@gmail.com>"
   ],
