@@ -1,0 +1,23 @@
+{
+  "name": "event-twister",
+  "version": "2.0.1",
+  "description": "Twist events at a dom",
+  "main": "event-twister.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kt3k/event-twister.git"
+  },
+  "keywords": [
+    "class-component",
+    "event"
+  ],
+  "author": "Yoshiya Hinosawa <stibium121@gmail.com> (https://twitter.com/kt3k)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kt3k/event-twister/issues"
+  },
+  "homepage": "https://github.com/kt3k/event-twister"
+}
