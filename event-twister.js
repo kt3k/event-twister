@@ -8,7 +8,7 @@
 (function ($) {
     'use strict';
 
-    $.registerClassComponent('event-twister', function (){
+    $.CC.register('event-twister', function (){
 
         var twister = new EventTwister(this);
 
